@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    min-width: 300px;
+    background: url(../img/fondoo.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+.menu {
+    background-color: pink;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 250px;
+}
+
+.tamaño-bar {
+    font-size: 15px;
+}
+
+#tamaño-texto {
+    font-size: 30px;
+}
+
+.navbar li a {
+    font-weight: 600;
+    color: white;
+}
+
+#Compra {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2.7em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: blueviolet;
+}
+
+button:hover {
+    background-color: rgb(62, 21, 100);
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.footer{
+    width: 100%;
+    background-color: pink;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.box figure {
+    width: 100%;
+    height: 100%;
+    height: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box figure img {
+    width: 250px;
+}
+
+.box h2 {
+    color: aliceblue;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.box p {
+    color: aliceblue;
+    margin-bottom: 10px;
+    font-size: 13px;
+
+}
+
+.red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: aliceblue;
+    margin-right: 10px;
+    background-color: rgb(73, 73, 73);
+    text-align: center;
+    transition: all 300ms ease;
+
+}
+
+.red-social a:hover {
+    color: brown;
+}
+
+.pie-pagina .grupo-2 {
+    background-color: rgb(0, 0, 0);
+    padding: 15px 10px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.column-item {
+    margin-bottom: 30px;
+}
+
+#video {
+    margin-bottom: 50px;
+    height: 700px;
+}
+
+.containerr {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20x;
+
+}
+
+.containerr .img {
+    float: right;
+    margin-left: 100px;
+}
+
+.derecha {
+    margin-right: 20px;
+}
+
+.imag {
+    width: 700px;
+}
+
+.parrafo {
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 15px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+@media(max-width: 767px) {
+
+    #video {
+        height: 280px;
+    }
+
+    .tamaño-bar {
+        font-size: 10px;
+    }
+
+    .imag {
+        width: 280px;
+    }
+
+    .parrafo {
+        color: black;
+        margin: auto;
+        text-align: center;
+        font-size: 13px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+}
+.card-body h2 {
+    color: #ffffff;
+    /* Color negro para etiquetas y textos específicos dentro del formulario */
+}
+
+.background-img {
+    background-image: url("{% static 'img/fondoo.png' %}");
+    /* Cambia 'your-image-file.png' al nombre de tu imagen */
+    background-size: cover;
+    /* Ajusta la imagen para cubrir todo el div */
+    background-position: center;
+    /* Centra la imagen */
+    padding: 10px;
+    /* Ajusta el padding según sea necesario */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Ajusta según sea necesario */
+    height: 50px;
+    /* Ajusta la altura según sea necesario */
+    color: #fff;
+    /* Cambia el color del texto si es necesario */
+}

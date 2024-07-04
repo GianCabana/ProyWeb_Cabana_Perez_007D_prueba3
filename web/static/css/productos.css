@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    min-width: 850px;
+    background: url(../img/fondoo.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+.menu {
+    background-color: pink;
+}
+
+.tamaño-bar {
+    font-size: 15px;
+}
+
+#tamaño-texto {
+    font-size: 30px;
+}
+
+.navbar li a {
+    font-weight: 600;
+    color: white;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.parrafo {
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer{
+    width: 100%;
+    background-color: pink;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.box figure{
+    width: 100%;
+    height: 100%;
+    height: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box figure img{
+    width: 250px;
+}
+
+.box h2{
+    color: aliceblue;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.box p{
+    color: aliceblue;
+    margin-bottom: 10px;
+    font-size: 13px;
+
+}
+
+.red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: aliceblue;
+    margin-right: 10px;
+    background-color: rgb(73, 73, 73);
+    text-align: center;
+    transition: all 300ms ease;
+
+}
+
+.red-social a:hover{
+    color: brown;
+}
+
+.pie-pagina .grupo-2{
+    background-color: rgb(0, 0, 0);
+    padding: 15px 10px;
+    text-align: center;
+    color: aliceblue;
+}
+
+#mis-datos {
+    border: solid 5px;
+    border-color: yellow;
+}
+
+.form-group{
+    color: black;
+}

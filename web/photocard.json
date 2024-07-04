@@ -1,0 +1,32 @@
+{ 
+    "photocard":[ 
+        {
+            "id":"1",
+            "nombre":"I AM WHO",
+            "tipo":"",
+            "lum":"2.000",
+            "dispo":"54"
+        },
+        {
+            "id":"2",
+            "nombre":"I AM YOU",
+            "tipo":"",
+            "lum":"4.500",
+            "dispo":"54"
+        },
+        {
+            "id":"3",
+            "nombre":"H3",
+            "tipo":"gatito",
+            "lum":"3.000",
+            "dispo":"54"
+        },
+        {
+            "id":"4",
+            "nombre":"H4",
+            "tipo":"",
+            "lum":"4.000",
+            "dispo":"54"
+        }
+    ]
+}

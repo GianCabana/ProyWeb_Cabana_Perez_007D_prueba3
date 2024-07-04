@@ -1,0 +1,49 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    min-width: 300px;
+    background: url(../img/fondoo.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+.navbar a {
+    font-weight: 600;
+    color: white;
+}
+
+.menu {
+    background-color: pink;
+}
+
+.container {
+    margin-top: 200px;
+}
+
+.derecha{
+    margin-right: 20px;
+}
+
+.texto-negro {
+    color: black;
+}
+
+.borde {
+    border-style: solid;
+    border-color: purple;
+    border-radius: 10px;
+}
+
+.form-group{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.form-group input{
+    width: 500px;
+}
+
+@media(max-width: 1200px) {
+    .form-group input{
+        width: 200px;
+    }
+
+}

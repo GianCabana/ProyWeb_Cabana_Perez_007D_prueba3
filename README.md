@@ -5,6 +5,6 @@
 USUARIO: superadmin
 password: 1234
 
-cliente: tobal
+cliente: gian
 password:duoc1234
 
